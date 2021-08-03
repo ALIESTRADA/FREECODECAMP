@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #000046;
+}
+
+.formulario {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000046;
+  width: 55%;
+  height: 1150px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.texto {
+  width: 90%;
+  border-radius: 7px;
+  height: 35px;
+  margin: 0px 20px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.friend {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.item {
+  width: 20px;
+}
+
+.favorite {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+input#checkbox {
+  margin: 0px 10px;
+  border: none;
+}
+
+.area {  
+  padding: 10px;
+  resize: vertical;
+  min-height: 120px;
+  margin-left: 20px;
+}
+
+input#enviar {
+  margin-top: 10px;
+  padding: 20px 20px;
+  background: #47cf73;
+  color: #fff;
+  width: 640px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  resize:vertical;
+}
+
+input#enviar:hover, input#enviar:focus {
+  border: 2px solid #dad9d8;
+}
