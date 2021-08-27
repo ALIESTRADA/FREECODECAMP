@@ -1,92 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-   
- <header>
-  
+
+  <header>
+
     <h1>freeCodeCamp Survey Form</h1>
     <h3>Thank you for taking the time to help us improve the platform</h3>
   </header>
 
   <form>
-    <div class="formulario">  
+    <div class="formulario">
 
-    <p>Name</p>
-    <input type="text" class="texto" autofocus placeholder="Enter your name" name="nombre" required="required" pattern="[a-zA-Z\s]{5,}"/>
+      <p>Name</p>
+      <input type="text" class="texto" autofocus placeholder="Enter your name" name="nombre" required="required"
+        pattern="[a-zA-Z\s]{5,}" />
 
-    <p>Email</p>
-    <input type="email" class="texto" name="email" required placeholder="Enter your email"/>
+      <p>Email</p>
+      <input type="email" class="texto" name="email" required placeholder="Enter your email" />
 
-    <p>age (optional)</p>
-    <input type="number" class="texto" name="age" required placeholder="Age" value/>
+      <p>age (optional)</p>
+      <input type="number" class="texto" name="age" required placeholder="Age" value />
 
-    <p>Which option best describes your current role?</p>
-    <input name="text" class="texto"list="roles" placeholder="Select current role"/>
-        <datalist id="roles">
+      <p>Which option best describes your current role?</p>
+      <input name="text" class="texto" list="roles" placeholder="Select current role" />
+      <datalist id="roles">
         <option>Student</option>
         <option>Full time job</option>
         <option>Full time learner</option>
         <option>Prefer not to say</option>
         <option>Others</option>
-        </datalist>
+      </datalist>
       <p>Would you recommend freeCodeCamp to a friend?</p>
-  <div class="friend">
-    <input type="radio" name="item" value="definitely"/>Definitely<br>
-    <input type="radio" name="item" value="maybe"/>Maybe<br>
-    <input type="radio" name="item" value="Not sure"/>Not sure<br>
-  </div>
-    <p>What is your favorite feature of freeCodeCamp? (Check all that apply)</p>
+      <div class="friend">
+        <input type="radio" name="item" value="definitely" />Definitely<br>
+        <input type="radio" name="item" value="maybe" />Maybe<br>
+        <input type="radio" name="item" value="Not sure" />Not sure<br>
+      </div>
+      <p>What is your favorite feature of freeCodeCamp? (Check all that apply)</p>
 
-    <div class="favorite">
-    <input type="checkbox"/>
-    <label for="answer">Front-end projects</label><br>
+      <div class="favorite">
+        <input type="checkbox" />
+        <label for="answer">Front-end projects</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Back-end projects</label><br>
+        <input type="checkbox" />
+        <label for="answer">Back-end projects</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Data visualization</label><br>
+        <input type="checkbox" />
+        <label for="answer">Data visualization</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Challenges</label><br>
+        <input type="checkbox" />
+        <label for="answer">Challenges</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Open source Community</label><br>
+        <input type="checkbox" />
+        <label for="answer">Open source Community</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Gitter hel rooms</label><br>
+        <input type="checkbox" />
+        <label for="answer">Gitter hel rooms</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Videos</label><br>
+        <input type="checkbox" />
+        <label for="answer">Videos</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer8">City Meetupss</label><br>
+        <input type="checkbox" />
+        <label for="answer8">City Meetupss</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Wiki</label><br>
+        <input type="checkbox" />
+        <label for="answer">Wiki</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Forums</label><br>
+        <input type="checkbox" />
+        <label for="answer">Forums</label><br>
 
-    <input type="checkbox"/>
-    <label for="answer">Aditional courses</label><br>
-    </div>
-   
+        <input type="checkbox" />
+        <label for="answer">Aditional courses</label><br>
+      </div>
 
-    <p>Any Comments or suggestions</p>
-    <textarea name="comentarios" class="area" rows="7" cols="86" placeholder="Enter your comment here"></textarea>
-    <input type="submit" value="Submit" id="enviar"/>
-
+      <div class="container">
+        <p>Any Comments or suggestions</p>
+        <div class="comment">
+          <textarea class="textinput" placeholder="Enter your comment here"></textarea>
+          <input type="submit" value="Submit" id="enviar">
+        </div>
+      </div>
   </form>
-</div>
+  </div>
 </body>
 
 </html>

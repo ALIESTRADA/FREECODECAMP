@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue',;
     font: size 14px;
     line-height: 1.5;
     text-align: center;
@@ -49,7 +49,7 @@ img {
     margin: 0px 129.500px;
 }
 
-textoimg {
+.textoimg {
     height: 24px;
     font-size: 16px;
     text-align: center;
@@ -87,8 +87,8 @@ cite {
     position:absolute;
     margin-top: 40px;   
     display: flex;
-   text-align: start;
-   margin-left: 27px;
+    text-align: start;
+    margin-left: 27px;
 }
 blockquote h3 {
     margin-top: 50px;

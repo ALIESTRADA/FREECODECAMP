@@ -85,6 +85,9 @@ section li {
     margin: 15px 0px 0px 35px;
     /*para separar la li de la segunda section*/
 }
+ul ul {
+    list-style-type: circle;
+}
 
 code {
     display: block;
